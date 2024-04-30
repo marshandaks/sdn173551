@@ -12,7 +12,7 @@
                 {{-- VisiMisi --}}
                 <div class="col-lg-4">
                     <div class="card shadow-sm rounded-3 border-0" style="width: 20rem;">
-                        <img src="{{ asset('assets/images/il-photo-02.png') }}" class="card-img-top rounded-3"
+                        <img src="{{ asset('assets/images/il-photo-0200.png') }}" class="card-img-top rounded-3"
                             alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Visi Misi</h5>
@@ -25,7 +25,7 @@
                 {{-- Sejarah --}}
                 <div class="col-lg-4">
                     <div class="card shadow-sm rounded-3 border-0" style="width: 20rem;">
-                        <img src="{{ asset('assets/images/il-photo-02.png') }}" class="card-img-top rounded-3"
+                        <img src="{{ asset('assets/images/il-photo-0300.png') }}" class="card-img-top rounded-3"
                             alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Sejarah</h5>

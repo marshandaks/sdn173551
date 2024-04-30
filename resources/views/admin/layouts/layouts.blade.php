@@ -11,6 +11,8 @@
 
     <!-- Fonts -->
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+
 
     <!-- AOS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -51,8 +53,6 @@
                 <nav class="mt-2">
                     <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu"
                         data-accordion="false">
-                        <!-- Add icons to the links using the .nav-icon class
-                             with font-awesome or any other icon font library -->
                         <li class="nav-item">
                             <a href="visimisis" class="nav-link">
                                 <i class="nav-icon fas fa-info"></i>
@@ -90,7 +90,7 @@
                         <!-- Move other links here -->
                         <li class="nav-item">
                             <a href="prestasiDashboard" class="nav-link">
-                                <i class="nav-icon fas fa-newspaper"></i>
+                                <i class="nav-icon bi bi-award-fill"></i>
                                 <p>
                                     Prestasi
                                 </p>
@@ -98,7 +98,7 @@
                         </li>
                         <li class="nav-item">
                             <a href="saranDashboard" class="nav-link">
-                                <i class="nav-icon fas fa-newspaper"></i>
+                                <i class="nav-icon bi bi-pen"></i>
                                 <p>
                                     Saran
                                 </p>
@@ -126,7 +126,9 @@
                             @auth
                                 <form action="/logout" method="POST">
                                     @csrf
-                                    <button class="btn btn-dark" type="submit">Logout</button>
+                                    <button class="btn btn-dark" type="submit">
+                                        <i class="nav-icon bi bi-box-arrow-right"></i> logout
+                                        </button>
                                 </form>
                             @else
                                 <a class="btn btn-danger" href="{{ route('login') }}">Login</a>
